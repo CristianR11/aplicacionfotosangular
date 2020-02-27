@@ -3,7 +3,7 @@ const http = require('http');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3200;
+const port = process.env.PORT || 8080;
 const www = process.env.WWW || './';
 
 app.use(express.static(__dirname + '/dist/angularp1'));
